@@ -13,6 +13,7 @@ export const Stark = () => {
           return (
             <div className={styles.img}>
               <img src={require(`../../Images/${item.img}`)} alt={item.alt} />
+              <p> {item.text} </p>
             </div>
           );
         })}

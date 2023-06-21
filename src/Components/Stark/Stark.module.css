@@ -1,15 +1,25 @@
 .container {
   display: flex;
   flex-direction: column;
+  align-items: center;
   background-image: url("../../Images//star.jpg");
   background-position: center;
   background-size: cover;
   height: 100dvh;
   overflow: hidden;
 }
-
+.container > h1 {
+  font-size: 4rem;
+  padding: 0.5em;
+  color: white;
+}
 .images {
+  display: flex;
+  align-items: center;
   position: relative;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
 }
 .img {
   opacity: 0;
@@ -18,11 +28,32 @@
 }
 
 .img:nth-of-type(1) {
-  animation: nedAnim 2s ease-in-out 1s forwards;
+  animation: aryaAnim 1s ease-in-out 0.5s forwards;
 }
 
 .img:nth-of-type(2) {
-  animation: jonAnim 2s ease-in-out 2s forwards;
+  animation: jonAnim 1s ease-in-out 1s forwards;
+}
+.img:nth-of-type(3) {
+  animation: nedAnim 1s ease-in-out 4.2s forwards;
+}
+.img:nth-of-type(4) {
+  animation: robAnim 1s ease-in-out 1.5s forwards;
+}
+.img:nth-of-type(5) {
+  animation: sansaAnim 1s ease-in-out 2s forwards;
+}
+.img:nth-of-type(6) {
+  animation: awAnim 1s ease-in-out 2.2s forwards;
+}
+.img:nth-of-type(7) {
+  animation: jwAnim 1s ease-in-out 2.7s forwards;
+}
+.img:nth-of-type(8) {
+  animation: rwAnim 1s ease-in-out 3.2s forwards;
+}
+.img:nth-of-type(9) {
+  animation: swAnim 1s ease-in-out 3.7s forwards;
 }
 
 .btn {
@@ -37,26 +68,106 @@
   text-align: center;
 }
 
-@keyframes nedAnim {
+@keyframes aryaAnim {
   0% {
     opacity: 0;
-    transform: translate(98%, 7%);
+    transform: translate(0%, -20%);
   }
 
   100% {
     opacity: 1;
-    transform: translate(-20%, -30%) scale(0.5);
+    transform: translate(-100%, -50%) scale(0.5);
   }
 }
-
 @keyframes jonAnim {
   0% {
     opacity: 0;
-    transform: translate(98%, 7%);
+    transform: translate(0%, -20%);
   }
 
   100% {
     opacity: 1;
-    transform: translate(20%, -30%) scale(0.5);
+    transform: translate(-50%, -50%) scale(0.5);
+  }
+}
+@keyframes nedAnim {
+  0% {
+    opacity: 0;
+    transform: translate(0%, 0%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0%, -10%) scale(1);
+  }
+}
+@keyframes robAnim {
+  0% {
+    opacity: 0;
+    transform: translate(0%, -20%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(50%, -50%) scale(0.5);
+  }
+}
+
+@keyframes sansaAnim {
+  0% {
+    opacity: 0;
+    transform: translate(0%, 7%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(100%, -50%) scale(0.5);
+  }
+}
+
+/* layer 2 */
+@keyframes awAnim {
+  0% {
+    opacity: 0;
+    transform: translate(-100%, -50%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(-100%, 30%) scale(0.5);
+  }
+}
+@keyframes jwAnim {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -50%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(-50%, 30%) scale(0.5);
+  }
+}
+@keyframes rwAnim {
+  0% {
+    opacity: 0;
+    transform: translate(50%, -50%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(50%, 30%) scale(0.5);
+  }
+}
+
+@keyframes swAnim {
+  0% {
+    opacity: 0;
+    transform: translate(100%, -50%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(100%, 30%) scale(0.5);
   }
 }

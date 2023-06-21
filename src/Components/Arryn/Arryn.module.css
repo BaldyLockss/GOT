@@ -12,16 +12,20 @@
   padding: 0.5em;
   color: white;
 }
-
 .images {
   position: relative;
   width: 60%;
   height: 100%;
 }
+
 .img {
   position: absolute;
   height: 40em;
-  perspective: 900px;
+}
+p {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
 }
 .img > img {
   width: 98%;
@@ -32,7 +36,7 @@
   transition: transform 4s ease-in-out;
 }
 .img:hover > img {
-  transform: rotateX(2160deg) rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 .btn {

@@ -83,16 +83,77 @@ export const Starks = [
   {
     id: 1,
     img: "sansa.png",
-    alt: "ned stark",
+    alt: "arya stark",
+    text: "Arya",
   },
   {
     id: 2,
     img: "sansa.png",
     alt: "jon snow",
+    text: "Jon",
   },
   {
-    id: 3,
+    id: 4,
+    img: "sansa.png",
+    alt: "ned stark",
+    text: " ",
+  },
+  {
+    id: 5,
+    img: "sansa.png",
+    alt: "rob stark",
+    text: "Rob",
+  },
+  {
+    id: 6,
     img: "sansa.png",
     alt: "sansa stark",
+    text: "Sansa",
+  },
+  {
+    id: 7,
+    img: "sansa.png",
+    alt: "sansa stark",
+    text: "Arya Wolf",
+  },
+  {
+    id: 8,
+    img: "sansa.png",
+    alt: "sansa stark",
+    text: "Jon Wolf",
+  },
+  {
+    id: 9,
+    img: "sansa.png",
+    alt: "sansa stark",
+    text: "Rob Wolf",
+  },
+  {
+    id: 10,
+    img: "sansa.png",
+    alt: "sansa stark",
+    text: "Sansa Wolf",
   },
 ];
+// export const Wolves = [
+//   {
+//     id: 1,
+//     img: "sansa.png",
+//     alt: "aryas wolf",
+//   },
+//   {
+//     id: 2,
+//     img: "sansa.png",
+//     alt: "jons wolf",
+//   },
+//   {
+//     id: 4,
+//     img: "sansa.png",
+//     alt: "robs wolf",
+//   },
+//   {
+//     id: 5,
+//     img: "sansa.png",
+//     alt: "sansaz wolf",
+//   },
+// ];
