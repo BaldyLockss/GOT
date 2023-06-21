@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../../Images/tar.jpg");
+  height: 100dvh;
+}
+.btn {
+  align-self: flex-start;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  margin: 0.4em;
+  padding: 0.4em;
+  width: 6em;
+  text-align: center;
+}

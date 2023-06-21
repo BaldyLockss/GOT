@@ -10,9 +10,9 @@
   overflow: hidden;
 }
 .container > h1 {
-  align-self: center;
+  /* align-self: center; */
   font-size: 6rem;
-  padding: 0.2em;
+  padding: 0.5em;
 }
 .images {
   position: relative;
@@ -20,8 +20,9 @@
   height: 100%;
 }
 .img {
-  height: 500px;
+  height: 28em;
   position: absolute;
+  perspective: 1000px;
 }
 
 .img > img {
@@ -29,9 +30,9 @@
   height: 100%;
   object-fit: cover;
   border-radius: 15px;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.8s ease-in-out;
 }
 .img:hover > img {
-  transform: scale(1.2) rotateY(360deg) translateY(50%);
-  box-shadow: 1em 1em 2em rgba(255, 0, 0, 0.333);
+  transform: scale(1.2) rotateY(360deg) translateY(35%);
+  box-shadow: 1em 1em 2em rgb(2, 0, 7);
 }

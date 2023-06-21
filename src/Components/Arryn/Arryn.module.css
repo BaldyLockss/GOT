@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../../Images/arr.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100dvh;
+}
+.container > h1 {
+  font-size: 4rem;
+  padding: 0.5em;
+  color: white;
+}
+
+.images {
+  position: relative;
+  width: 60%;
+  height: 100%;
+}
+.img {
+  position: absolute;
+  height: 40em;
+  perspective: 900px;
+}
+.img > img {
+  width: 98%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 15px;
+  transition: transform 4s ease-in-out;
+}
+.img:hover > img {
+  transform: rotateX(2160deg) rotateY(180deg);
+}
+
+.btn {
+  align-self: flex-start;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  margin: 0.4em;
+  padding: 0.4em;
+  width: 6em;
+  text-align: center;
+}

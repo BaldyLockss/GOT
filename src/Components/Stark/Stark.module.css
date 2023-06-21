@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../../Images//star.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100dvh;
+  overflow: hidden;
+}
+
+.images {
+  position: relative;
+}
+.img {
+  opacity: 0;
+  position: absolute;
+  transform: translate(98%, 7%);
+}
+
+.img:nth-of-type(1) {
+  animation: nedAnim 2s ease-in-out 1s forwards;
+}
+
+.img:nth-of-type(2) {
+  animation: jonAnim 2s ease-in-out 2s forwards;
+}
+
+.btn {
+  align-self: flex-start;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  margin: 0.4em;
+  padding: 0.4em;
+  width: 6em;
+  text-align: center;
+}
+
+@keyframes nedAnim {
+  0% {
+    opacity: 0;
+    transform: translate(98%, 7%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(-20%, -30%) scale(0.5);
+  }
+}
+
+@keyframes jonAnim {
+  0% {
+    opacity: 0;
+    transform: translate(98%, 7%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(20%, -30%) scale(0.5);
+  }
+}
