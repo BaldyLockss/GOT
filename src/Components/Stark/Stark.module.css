@@ -28,32 +28,32 @@
 }
 
 .img:nth-of-type(1) {
-  animation: aryaAnim 1s ease-in-out 0.5s forwards;
+  animation: aryaAnim 1s ease-in-out 0.1s forwards;
 }
 
 .img:nth-of-type(2) {
-  animation: jonAnim 1s ease-in-out 1s forwards;
+  animation: jonAnim 1s ease-in-out 0.6s forwards;
 }
 .img:nth-of-type(3) {
-  animation: nedAnim 1s ease-in-out 4.2s forwards;
+  animation: nedAnim 1s ease-in-out 3.8s forwards;
 }
 .img:nth-of-type(4) {
-  animation: robAnim 1s ease-in-out 1.5s forwards;
+  animation: robAnim 1s ease-in-out 1.1s forwards;
 }
 .img:nth-of-type(5) {
-  animation: sansaAnim 1s ease-in-out 2s forwards;
+  animation: sansaAnim 1s ease-in-out 1.6s forwards;
 }
 .img:nth-of-type(6) {
-  animation: awAnim 1s ease-in-out 2.2s forwards;
+  animation: awAnim 1s ease-in-out 1.8s forwards;
 }
 .img:nth-of-type(7) {
-  animation: jwAnim 1s ease-in-out 2.7s forwards;
+  animation: jwAnim 1s ease-in-out 2.3s forwards;
 }
 .img:nth-of-type(8) {
-  animation: rwAnim 1s ease-in-out 3.2s forwards;
+  animation: rwAnim 1s ease-in-out 2.8s forwards;
 }
 .img:nth-of-type(9) {
-  animation: swAnim 1s ease-in-out 3.7s forwards;
+  animation: swAnim 1s ease-in-out 3.2s forwards;
 }
 
 .btn {
@@ -76,7 +76,7 @@
 
   100% {
     opacity: 1;
-    transform: translate(-100%, -50%) scale(0.5);
+    transform: translate(-80%, -50%) scale(0.3);
   }
 }
 @keyframes jonAnim {
@@ -87,7 +87,7 @@
 
   100% {
     opacity: 1;
-    transform: translate(-50%, -50%) scale(0.5);
+    transform: translate(-45%, -50%) scale(0.3);
   }
 }
 @keyframes nedAnim {
@@ -98,7 +98,7 @@
 
   100% {
     opacity: 1;
-    transform: translate(0%, -10%) scale(1);
+    transform: translate(0%, -10%) scale(0.8);
   }
 }
 @keyframes robAnim {
@@ -109,7 +109,7 @@
 
   100% {
     opacity: 1;
-    transform: translate(50%, -50%) scale(0.5);
+    transform: translate(45%, -50%) scale(0.3);
   }
 }
 
@@ -121,7 +121,7 @@
 
   100% {
     opacity: 1;
-    transform: translate(100%, -50%) scale(0.5);
+    transform: translate(80%, -50%) scale(0.3);
   }
 }
 
@@ -129,45 +129,45 @@
 @keyframes awAnim {
   0% {
     opacity: 0;
-    transform: translate(-100%, -50%);
+    transform: translate(-80%, -50%);
   }
 
   100% {
     opacity: 1;
-    transform: translate(-100%, 30%) scale(0.5);
+    transform: translate(-80%, 30%) scale(0.3);
   }
 }
 @keyframes jwAnim {
   0% {
     opacity: 0;
-    transform: translate(-50%, -50%);
+    transform: translate(-45%, -50%);
   }
 
   100% {
     opacity: 1;
-    transform: translate(-50%, 30%) scale(0.5);
+    transform: translate(-45%, 30%) scale(0.3);
   }
 }
 @keyframes rwAnim {
   0% {
     opacity: 0;
-    transform: translate(50%, -50%);
+    transform: translate(45%, -50%);
   }
 
   100% {
     opacity: 1;
-    transform: translate(50%, 30%) scale(0.5);
+    transform: translate(45%, 30%) scale(0.3);
   }
 }
 
 @keyframes swAnim {
   0% {
     opacity: 0;
-    transform: translate(100%, -50%);
+    transform: translate(80%, -50%);
   }
 
   100% {
     opacity: 1;
-    transform: translate(100%, 30%) scale(0.5);
+    transform: translate(80%, 30%) scale(0.3);
   }
 }
